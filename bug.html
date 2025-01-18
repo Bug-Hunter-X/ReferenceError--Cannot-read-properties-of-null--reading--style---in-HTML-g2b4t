@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Error</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text will be hidden if JavaScript is enabled.
+  </div>
+  <script>
+    // The following line will throw a ReferenceError if the element with id 'myDiv' is not found.
+    document.getElementById('myDiv').style.display = 'none';
+  </script>
+</body>
+</html>
